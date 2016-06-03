@@ -16,10 +16,10 @@
     ],
     "require": {
         "phing/phing": "^2.14",
-        "cweagans/composer-patches": "dev-master",
+        "cweagans/composer-patches": "1.5.0",
         "drupal-composer/drupal-scaffold": "^1.2",
         "composer/installers": "^1.0",
-        "drupal/lightning": "8.1.00-rc5",
+        "drupal/lightning": "dev-8.x-1.x",
         "drupal/bootstrap": "8.3.0-beta3",
         "drupal/core": "8.1.1"
     },
@@ -42,7 +42,7 @@
             },
             "drupal/lightning": {
                 "Demote Lightning from a distro to a profile so that it doesn't force us to install it.":
-                "acme_lightning_consumer-dedistro-lightning.patch"
+                "acme_lightning_consumer_dedistro_lightning.patch"
             }
         },
         "installer-paths": {

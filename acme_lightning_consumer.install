@@ -7,7 +7,7 @@ function acme_lightning_consumer_install() {
   // Write our additional profile to settings. See:
   // https://www.drupal.org/node/1356276
   $settings['settings']['profile_directories'] = (object) [
-    'value' => 'profiles/contrib/lightning',
+    'value' => ['profiles/contrib/lightning'],
     'required' => TRUE,
   ];
   drupal_rewrite_settings($settings);
@@ -19,8 +19,6 @@ function acme_lightning_consumer_install() {
 function acme_lightning_consumer_modules_installed() {
   // Enable the Acme Lightning Extender Core module after installing Lightning.
   \Drupal::service('module_installer')->install([
-    'lightning_core',
-    'lightning_layout',
-    'lightning_media'
+    'lightning_core'
   ]);
 }

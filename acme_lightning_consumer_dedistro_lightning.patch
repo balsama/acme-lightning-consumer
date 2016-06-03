@@ -1,3 +1,12 @@
+From 84def7a716db059bf5d7c0f8b2725c9cd736f47e Mon Sep 17 00:00:00 2001
+From: Adam Balsam <adam.balsam@acquia.com>
+Date: Fri, 3 Jun 2016 15:47:49 -0400
+Subject: [PATCH] patch for alc
+
+---
+ lightning.info.yml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
 diff --git a/lightning.info.yml b/lightning.info.yml
 index 66b618e..3d4c10f 100644
 --- a/lightning.info.yml
@@ -10,6 +19,9 @@ index 66b618e..3d4c10f 100644
 -  name: Lightning
 +#distribution:
 +#  name: Lightning
- 
+
  # Required modules
  dependencies:
+-- 
+2.6.4 (Apple Git-63)
+
