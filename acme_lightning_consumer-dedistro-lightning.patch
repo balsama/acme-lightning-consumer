@@ -1,0 +1,13 @@
+diff --git a/lightning.info.yml b/lightning.info.yml
+index 66b618e..32bee1c 100644
+--- a/lightning.info.yml
++++ b/lightning.info.yml
+@@ -2,8 +2,6 @@ name: Lightning
+ type: profile
+ description: 'A fast and feature-rich Drupal distribution.'
+ core: 8.x
+-distribution:
+-  name: Lightning
+ 
+ # Required modules
+ dependencies:

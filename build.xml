@@ -4,7 +4,7 @@
   <property name="composer" value="/usr/local/bin/composer" />
   <property name="rsync" value="/usr/bin/rsync" />
   <property name="docroot" value="docroot" />
-  <property name="profile" value="${docroot}/profiles/custom/acme_lightning_extender" />
+  <property name="profile" value="${docroot}/profiles/custom/acme_lightning_consumer" />
   <property name="site" value="${docroot}/sites/default" />
 
   <!-- Finds Composer and rsync. -->

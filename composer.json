@@ -20,7 +20,8 @@
         "drupal-composer/drupal-scaffold": "^1.2",
         "composer/installers": "^1.0",
         "drupal/lightning": "8.1.00-rc5",
-        "drupal/bootstrap": "8.3.0-beta3"
+        "drupal/bootstrap": "8.3.0-beta3",
+        "drupal/core": "8.1.1"
     },
     "scripts": {
         "post-install-cmd": [
@@ -40,8 +41,8 @@
                 "https://www.drupal.org/files/issues/make_inherited_install-1356276-133.patch"
             },
             "drupal/lightning": {
-              "Enable Acme Lightning Extender":
-              "acme_lightning_extender_core_enable.patch"
+                "Demote Lightning from a distro to a profile so that it doesn't force us to install it.":
+                "acme_lightning_consumer-dedistro-lightning.patch"
             }
         },
         "installer-paths": {
